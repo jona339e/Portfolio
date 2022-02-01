@@ -5,3 +5,10 @@ h1 {
     text-align: center;
     color:chartreuse;
 }
+/* .div er en class af en division, det vil sige at det kun er de divisioner med denne class hvor stylesheetet bliver brugt */
+.div-1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
