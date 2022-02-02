@@ -16,6 +16,7 @@ header{
   height: 100%;
   background-color: slategray;
   border-radius: 15px;
+  padding-bottom: 20px;
 }
 h1 {
     text-align: center;
@@ -39,4 +40,13 @@ h1 {
 }
 .div-2 a{
   color: aliceblue;
+}
+.div-2 ul li{
+  text-align-last: left;
+  text-decoration: none;
+}
+.dl{
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 3.5%;
 }
