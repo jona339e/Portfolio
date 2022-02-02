@@ -1,14 +1,39 @@
-body {
-    background-color: #fefbd8;
-  }
+body{
+  background-color: burlywood;
+}
+header{
+  position: fixed;
+  text-align:center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: burlywood;
+}
+/* #overlay er et id, ID's kan kun bruges 1 gang i modsætning til divs*/
+#overlay {
+  width: 60%;
+  margin: 4.9% auto;
+  height: 100%;
+  background-color: slategray;
+  border-radius: 15px;
+}
 h1 {
     text-align: center;
-    color:chartreuse;
+    color: dimgrey;
 }
 /* .div er en class af en division, det vil sige at det kun er de divisioner med denne class hvor stylesheetet bliver brugt */
 .div-1 {
   text-align: center;
 }
-p {
+.div-1 a:hover{
+  color: black;
+}
+.div-1 a{
+  color: black;
+}
+.div-2 {
   text-align: center;
+  color: aliceblue;
+  padding-left: 5%;
+  padding-right: 5%;
 }
