@@ -1,5 +1,6 @@
 body{
-  background-image:url(/Assets/bgphoto.jpg);
+  background-image:url(Assets/bgphoto.jpg);
+  z-index: 1;
 }
 
 header{
@@ -9,8 +10,13 @@ header{
   top: 0;
   left: 20%;
   background-color: slategray;
+  z-index: 1;
 
 }
+.btn-default{
+  background-color: cadetblue;
+}
+
 /* #overlay er et id, ID's er unikt divs*/
 #overlay {
   width: 60%;
