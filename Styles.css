@@ -1,52 +1,182 @@
 body{
-  background-color: burlywood;
+  background-image:url(/Assets/bgphoto.jpg);
 }
+
 header{
   position: fixed;
   text-align:center;
-  width: 100%;
+  width: 60%;
   top: 0;
-  left: 0;
-  background-color: burlywood;
+  left: 20%;
+  background-color: slategray;
+
 }
-/* #overlay er et id, ID's kan kun bruges 1 gang i modsætning til divs*/
+/* #overlay er et id, ID's er unikt divs*/
 #overlay {
   width: 60%;
-  margin: 4.9% auto;
+  margin: 3% auto;
   height: 100%;
   background-color: slategray;
   border-radius: 15px;
   padding-bottom: 20px;
 }
+
 h1 {
     text-align: center;
-    color: dimgrey;
+    color: black;
 }
 /* .div er en class af en division, det vil sige at det kun er de divisioner med denne class hvor stylesheetet bliver brugt */
 .div-1 {
   text-align: center;
 }
+
 .div-1 a:hover{
   color: black;
 }
+
 .div-1 a{
   color: black;
 }
+
 .div-2 {
   text-align: center;
   color: aliceblue;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 4%;
 }
+
 .div-2 a{
   color: aliceblue;
 }
+
 .div-2 ul li{
   text-align-last: left;
   text-decoration: none;
 }
-.dl{
+
+.div-2 .pfp{
+  width: 400px;
+  height: 500px;
+}
+
+.dl p{
   text-align: left;
   padding-top: 5px;
   padding-left: 3.5%;
+}
+
+.dl a{
+  text-decoration: line-through;
+}
+.works a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1400px){
+  
+  .div-2 {
+    padding-top: 8%;
+  }
+
+}
+@media screen and (max-width: 1400px){
+  
+  .div-2 .pfp{
+    width: 300px;
+    height: 375px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  
+  .div-2 {
+    padding-top: 10%;
+  }
+  p{
+    font-size: 14px;
+  }
+
+}
+@media screen and (max-width: 800px){
+  
+  .div-2 {
+    padding-top: 8%;
+  }
+  p{
+    font-size: 12px;
+  }
+  .div-2 .pfp{
+    width: 200px;
+    height: 250px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  #overlay nav{
+    margin-top: -10px;
+  }
+  #overlay h1{
+    padding-top: -20%;
+    font-size: 18px;
+  }
+  #overlay a{
+    font-size: 12px;
+  }
+
+
+}
+@media screen and (max-width: 680px){
+  
+  .div-2 {
+    padding-top: 10%;
+  }
+  p{
+    font-size: 10px;
+  }
+  h2{
+    font-size: 12px;
+  }
+  #overlay nav{
+    margin-top: -10px;
+  }
+  #overlay h1{
+    padding-top: -20%;
+    font-size: 16px;
+  }
+  #overlay a{
+    font-size: 10px;
+  }
+
+
+}
+@media screen and (max-width: 500px){
+  .div-2 {
+    padding-top: 8%;
+  }
+  p{
+    font-size: 8px;
+  }
+  h2{
+    font-size: 10px;
+  }
+  .div-2 .pfp{
+    width: 100px;
+    height: 125px;
+  }
+  #overlay nav{
+    margin-top: -15px;
+  }
+  #overlay h1{
+    padding-top: -20%;
+    font-size: 14px;
+  }
+  #overlay a{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 400px){
+  .div-2 {
+    padding-top: 12%;
+  }
 }
