@@ -78,6 +78,9 @@ h1 {
 .works a{
   text-decoration: none;
 }
+#formMessage{
+  color: aliceblue;
+}
 
 @media screen and (max-width: 1400px){
   
