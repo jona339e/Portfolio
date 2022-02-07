@@ -20,10 +20,9 @@ header{
 /* #overlay er et id, ID's er unikt divs*/
 #overlay {
   width: 60%;
-  margin: 3% auto;
-  height: 100%;
+  margin: 3% auto;                  /*Vertikal og Horizontal margin, auto bruges desuden for at centrere elemnterne*/
   background-color: slategray;
-  border-radius: 15px;
+  border-radius: 15px;              
   padding-bottom: 20px;
 }
 
