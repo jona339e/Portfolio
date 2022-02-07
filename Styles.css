@@ -87,13 +87,11 @@ h1 {
     padding-top: 8%;
   }
 
-}
-@media screen and (max-width: 1400px){
-  
   .div-2 .pfp{
     width: 375px;
     height: 300px;
   }
+
 }
 
 @media screen and (max-width: 1000px){
